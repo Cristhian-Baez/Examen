@@ -1,0 +1,73 @@
+*{
+	margin: 1;
+	padding: 1;
+	font-size:x x-large;	
+}
+
+
+a:link, a:visited, hover, a:active{
+	/*color: #F82C10;*/
+	/*background-color: powderblue;*/
+    transition: background-color .5s;
+	font-size: 1em;
+}
+
+/*colocamos un color a todo el cuerpo*/
+body {
+	background: #A0F2CE;
+	font-family: Times New Roman ;
+}
+/*Propiedades de la cabecera*/
+#cabecera 
+{
+	background-color:#030303;
+	color: #dae0e8;
+	padding: 0.8%;
+}
+/*Propiedades de la columna*/
+#columnas {
+	overflow: hidden;
+	padding-bottom: 0.5%;
+	font-size: large;
+	font-family: cursive;
+}
+/*Extender o comprimir nuestro contenedor*/
+#contenedor {
+	margin: 5px auto ;
+	width: 100%;
+}
+#menu{
+	background-color: #f2d7a0;
+	float: left;
+	margin-bottom: -32767px;
+	min-width:120px ;
+	padding: 0.5%;
+	padding-bottom: 32767px;
+	width: 21%;
+	font-family: Stencil Std;
+	font-style: italic;
+}
+
+#contenido {
+	background-color:#DAE0E8 ;
+	color: #0D296F;
+	float: left;
+	margin-bottom: -32767px;
+	max-width:-webkit-calc(92% - 120px);
+	padding: %;
+	padding-bottom: 32767px;
+    width: 75%;
+	font-family: fantasy;
+	/*background-image: url(LATEX/La-informática.jpg);
+    background-repeat: no-repeat;
+    background-size:;*/
+}
+
+
+
+}
+#pie { 
+    background-color:#bbb;
+    clear:both;
+    color:#000;
+    padding:2%;

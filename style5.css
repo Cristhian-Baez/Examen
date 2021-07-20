@@ -1,0 +1,44 @@
+*{
+	
+	
+   	font-family: cursive;
+}
+
+/*colocamos un color a todo el cuerpo*/
+body {
+ background: #1AD358;
+ background-image: url('paraguaydigital.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}body 
+
+#cabecera {
+	width: 35rem;
+	height: 05rem;
+	border-radius: 50%;
+	background: #06B05E;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+    margin:0px auto;
+    padding:2%
+
+    
+}
+
+.circulo > h2 {
+	font-family: sans-serif;
+	color: #0E21D0;
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+ Propiedades de la cabecera
+#cabecera{
+	font-size:x-large;	
+	background: #A0F2CE;
+	color: #1F4E52;
+	margin: 10px auto ;
+	width: 50%;
+}

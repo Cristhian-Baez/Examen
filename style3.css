@@ -1,0 +1,28 @@
+*{
+	
+	margin: 1;
+	padding: 3;
+	color: #0E56F0;
+   
+}
+/*colocamos un color a todo el cuerpo*/
+body {
+ background: #1AD358;
+ background-image: url('LATEX/inform.jpg');
+ }
+
+ /*Propiedades de la cabecera*/
+#cabecera{
+	font-size:x-large;	
+	background: #A0F2CE;
+	color: #041538;
+	margin: 10px auto ;
+	width: 50%;
+}
+
+/*Propiedades del Contenido*/
+#contenido{
+	
+	font-family: cursive;
+	
+}
